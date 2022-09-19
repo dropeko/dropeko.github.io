@@ -1,0 +1,27 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(182, 99, 45);
+}
+
+h2, h3{
+    margin: 0 0 20px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.header{
+    font-family: monospace;
+    padding: 1%;
+    text-align: center;
+}
+
+.navigation{
+    text-align: center;
+}
