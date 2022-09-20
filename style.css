@@ -34,7 +34,8 @@ body{
     background-color: blueviolet;
 }
 
-.abilities{
+.skills{
+    background-color: rgb(102, 102, 194);
     display: inline-block;
     width: 30%;
     margin-right: 10px;
