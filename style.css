@@ -5,13 +5,14 @@
 }
 
 body{
-    background-color: rgb(182, 99, 45);
+    background-color: rgb(50, 141, 216);
 }
 
 .header{
     font-family: monospace;
     text-align: center;
-    background-color: brown;
+    background-image: url(/images/cabecalho.jpg);
+    background-position: 10%;
 }
 
 .navigation{
@@ -23,27 +24,30 @@ body{
 }
 
 .main-content{
-    background-color: aquamarine;
     text-align: center;
-    width: 67%;
-    padding: 0 0 0 30%;
+    width: 100%;
+
+}
+
+img {
+    margin-left: 4%;
+    border-radius: 40%;
+    float: left;
 }
 
 .personalinfo{
     margin-top: 5px;
-    background-color: blueviolet;
 }
 
-.skills{
-    background-color: rgb(102, 102, 194);
+.skills {
     display: inline-block;
     width: 30%;
     margin-right: 10px;
-    padding: 15px;
+    border: 3px solid rgb(61, 90, 128) ;
 }
 
 
 .footer{
-    background-color: rgb(59, 160, 34);
+    margin-top: 50%;
     text-align: center;
 }
