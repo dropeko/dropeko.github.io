@@ -1,53 +1,19 @@
-* {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    box-sizing: border-box;
+main {
+    background-color: rgb(81, 82, 83);
+}
+.description {
+    color: aliceblue;
+    margin-top: 10px;
+    border: 3px aliceblue solid;
+    border-radius: 10px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
-body{
-    background-color: rgb(50, 141, 216);
-}
-
-.header{
-    font-family: monospace;
+footer {
+    color: aliceblue;
     text-align: center;
-    background-image: url(/images/cabecalho.jpg);
-    background-position: 10%;
-}
-
-.navigation{
-    text-align: center;
-}
-
-.foto{
-    float: right;
-}
-
-.main-content{
-    text-align: center;
-    width: 100%;
-
-}
-
-img {
-    margin-left: 4%;
-    border-radius: 40%;
-    float: left;
-}
-
-.personalinfo{
-    margin-top: 5px;
-}
-
-.skills {
-    display: inline-block;
-    width: 30%;
-    margin-right: 10px;
-    border: 3px solid rgb(61, 90, 128) ;
-}
-
-
-.footer{
-    margin-top: 50%;
-    text-align: center;
+    background-color: rgb(48, 49, 49);
 }
