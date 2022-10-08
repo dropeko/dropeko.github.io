@@ -10,10 +10,10 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Pedro Henrique Coli Andrade</a>
+    <header class="page-header">
+      <h5>Pedro Henrique Coli Andrade</h5>
+        <nav class="links-buttons">
+            <div>|
               <a href="https://linkedin.com/in/pedro-henrique-coli-andrade-188210242" target="_blank">Linkedin</a> |
               <a href="https://github.com/dropeko" target="_blank">GitHub</a> |
             </div>
@@ -21,12 +21,79 @@
     </header>
     <main>
       <section class="description">
-        <h2>Sobre mim:</h2>
-          <p>Nascido e criado em Belo Horizonte/MG. Apaixonado por tecnologia, cavalos e campo. Atuei no mercado de Infraestrura de TI durante 10 anos e agora em 2022 em processo de transição de mercado para a area de desenvolvimento de softwares.</p>
+        <br>
+        <img src="./images/IMG_0264.JPG" alt="my-picture" class="rounded mx-auto d-block" width="150px">
+        <h2 class="about-title">Sobre mim:</h2>
+          <p class="about-text">Nascido e criado em Belo Horizonte/MG. Apaixonado por tecnologia, cavalos e campo. Atuei no mercado de Infraestrura de TI durante 10 anos e agora em 2022 em processo de transição de mercado para a area de programação através do curso de Desenvolvimento Web FullStack da <a class="trybe" href="https://www.betrybe.com/" class="trybe">Trybe</a>.</p>
+      </section>
+      <section class="description">
+          <br>
+          <h2 class="about-title">Competências e Interesses:</h2>
+          <div class="skills-lists">
+            <div class="card" style="width: 18rem;height: 200px" id="languages">
+              <div class="card-body">
+                <h3 class="card-title">Linguagens</h3>
+                <ul class="card-text">
+                  <li class="basic-languages">JavaScript</li>
+                  <li class="basic-languages">CSS</li>
+                  <li class="basic languages">HTML</li>
+                  <li class="basic-languages">BootStrap</li>
+                  <li class="basic-languages">Git/GitHub</li>
+                  <li class="basic-languages">Unix/Bash</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;height: 100px" id="idiomas">
+              <div class="card-body">
+                <h3 class="card-title">Idiomas</h3>
+                <ul class="card-text">
+                  <li><strong class="english">Inglês fluente</strong></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;height: 150px">
+              <div class="card-body">
+                <h3 class="card-title">Soft Skills</h3>
+                <ul class="card-text">
+                  <li>Facilidade para aprender</li>
+                  <li>Pensamento crítico</li>
+                  <li>Curiosidade</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; height: 150px">
+              <div class="card-body">
+                <h3 class="card-title">Interesses</h3>
+                <ul class="card-text">
+                  <li><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank" class="CSGO card-link">CS:GO</a></li>
+                  <li><a href="http://www.abccmm.org.br/principal" target="_blank" class="boardgames card-link">ABCCMM</a></li>
+                  <li><a href="https://1xbet.whoscored.com/" target="_blank" class="football card-link">Futebol</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
       </section>
   </main>
-  <footer>
-    <span>Cuidadosamente desenvolvido por @PedroAndrade | &copy;</span>
-  </footer>    
+  <div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="#top" class="text-muted text-decoration-none lh-1">
+          <span>Voltar para o topo</span>
+        </a>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a href ="https://linkedin.com/in/pedro-henrique-coli-andrade-188210242" target="_blank">
+            <img class="logos-redes bi" width="24" height="24" src="/images/logo-linkedin.png" alt="Logomarca do LinkedIn">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a href ="https://www.github.com/dropeko/" target="_blank">
+            <img class="logos-redes bi" width="24" height="24" src="./images/logo-github.png" alt="Logomarca do GitHub">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>   
 </body>
 </html>

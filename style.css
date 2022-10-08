@@ -1,18 +1,89 @@
+body {
+    background-color: rgb(201, 202, 202);
+}
+
 main {
     background-color: rgb(81, 82, 83);
 }
+
+.page-header {
+    height: 40px;
+    background-color: rgb(90, 88, 88);
+    display: flex;
+}
+
 .description {
     color: aliceblue;
     margin-top: 10px;
     border: 3px aliceblue solid;
     border-radius: 10px; 
-    width: 80%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
 }
 
+.links-buttons {
+    margin-left: auto;
+    justify-content: right;
+}
+
+.about-title {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.trybe {
+    text-decoration: none;
+    color: #00bfa5;
+    font-weight: bold;
+  }
+
+.about-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#languages {
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: #00bfa5;
+}
+
+#idiomas {
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: #00bfa5;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #FA9C1D;
+  }
+  
+  .skills-lists {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+  }
+  
+  .card {
+    border-color: #FA9C1D;
+    background-color: #00bfa5;
+    color: white;
+  }
+
 footer {
+    margin-top: 10px;
     color: aliceblue;
     text-align: center;
     background-color: rgb(48, 49, 49);
